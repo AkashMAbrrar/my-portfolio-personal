@@ -1,0 +1,17 @@
+.home-bg {
+    background-image: url("../../images/mypic.png");
+    background-color: #010101;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+}
+
+li.nav__items {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
