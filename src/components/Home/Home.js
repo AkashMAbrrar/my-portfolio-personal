@@ -21,6 +21,17 @@ const Home = () => {
                         </ul>
                     </div>
                 </div>
+                {/* Home COntent */}
+                <div className="container">
+                    <div className="home__content">
+                        <div className="home__meta">
+                            <h1 className='home__text pz-10'>Wellcome To My Universe</h1>
+                            <h2 className='home__text pz-10'>Hi, I'm Akash Muhammad Abrar</h2>
+                            <h3 className='home__text sweet pz-10'>React Js Developer</h3>
+                            <h4 className='home__text pz-10'>Full-Stack Web Developer</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

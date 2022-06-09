@@ -15,3 +15,32 @@ li.nav__items {
     font-size: 18px;
     padding-bottom: 15px;
 }
+
+.home__content {
+    padding: 125px 0px;
+}
+
+h1.home__text {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgba(198, 201, 216, .75);
+}
+
+h2.home__text {
+    font-size: 52px;
+    line-height: 52px;
+    font-weight: 700;
+}
+
+h3.home__text {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+h4.home__text {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
