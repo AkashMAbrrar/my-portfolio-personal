@@ -1,0 +1,37 @@
+h1.heading {
+    font-size: 52px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p.heading.p__color {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.service__box {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #191919;
+    padding: 55px;
+    transition: .4s ease;
+}
+
+p.service__text.p__color {
+    margin-bottom: 0;
+}
+
+h1.service__text {
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.icon {
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 22px;
+    display: inline-flex;
+    color: skyblue;
+}

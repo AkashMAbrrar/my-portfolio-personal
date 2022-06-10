@@ -4,7 +4,7 @@ import about from '../../images/about.png';
 
 const About = () => {
     return (
-        <div className='about component__sapce'>
+        <div className='about component__space'>
             <div className="container">
                 <div className="row">
                     <div className="col__2">
