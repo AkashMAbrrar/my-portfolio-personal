@@ -124,3 +124,30 @@ p {
 .pointer {
   cursor: pointer;
 }
+
+button.btn {
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 2px solid #36cfca;
+  background-color: #36cfca;
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: .4s all ease;
+  height: 50px;
+  width: 180px;
+  margin: 0px 10px;
+}
+
+.p__color {
+  color: rgba(198, 201, 216, .75);
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+button.about.btn.pointer:hover {
+  background: rgb(12, 11, 11);
+  color: #fff !important;
+}

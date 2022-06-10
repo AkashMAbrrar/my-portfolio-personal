@@ -1,0 +1,28 @@
+.about {
+    background: #191919;
+}
+
+img.about__img {
+    border-radius: 10px;
+    width: 80%;
+    background-color: rgba(125, 120, 120, 0.329);
+}
+
+h1.about__heading {
+    margin-bottom: 10px;
+    font-weight: 700px;
+    text-align: start;
+    font-size: 52px;
+}
+
+button.about.btn.pointer {
+    text-transform: capitalize;
+    width: 190px;
+    height: 52px;
+    font-size: 18px;
+    transition: .5s ease;
+}
+
+.about__btn {
+    padding: 20px 0px;
+}
