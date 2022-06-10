@@ -12,11 +12,17 @@ p.heading.p__color {
 }
 
 .service__box {
+    border-radius: 10px;
     margin-bottom: 10px;
     width: 100%;
     background-color: #191919;
     padding: 55px;
     transition: .4s ease;
+}
+
+.service__box:hover {
+    transform: translateY(5px);
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);
 }
 
 p.service__text.p__color {
