@@ -151,3 +151,52 @@ button.about.btn.pointer:hover {
   background: rgb(12, 11, 11);
   color: #fff !important;
 }
+
+svg {
+  stroke-width: 1 !important;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+strong {
+  color: #F9004D;
+  font-weight: 600;
+}
+
+input {
+  color: rgba(198, 201, 216, .75);
+}
+
+button.btn {
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 2px solid #f9004d;
+  background-color: #f9004d;
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: .4s all ease;
+  height: 50px;
+  width: 180px;
+  margin: 0px 10px;
+}
+
+.p__color {
+  color: rgba(198, 201, 216, .75);
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 15px;
+}
+
+button.about.btn.pointer:hover {
+  background: #fff;
+  color: #000 !important;
+}
