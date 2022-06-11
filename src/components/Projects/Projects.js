@@ -26,7 +26,7 @@ const Projects = () => {
                             <div className="project__meta absolute">
                                 <h5 className='project__text'>Medical Service</h5>
                                 <h4 className='project__text'>Medication service for all pepole and take appointment from online</h4>
-                                <a className='project__btn' href="https://doctors-portal-208da.web.app/?fbclid=IwAR3s0-sJH3_QXN6fCmfxkQq4xbc8EhA3ylJ8WzSWWswxrI_uQVwAAwxjqoc" target="_blank">Visit Me</a>
+                                <a className='project__btn' href="https://doctors-portal-208da.web.app/?fbclid=IwAR3s0-sJH3_QXN6fCmfxkQq4xbc8EhA3ylJ8WzSWWswxrI_uQVwAAwxjqoc" target="_blank" rel="noreferrer">Visit Me</a>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const Projects = () => {
                             <div className="project__meta absolute">
                                 <h5 className='project__text'>Products Contribution</h5>
                                 <h4 className='project__text'>Warehouse Manangements and contribution</h4>
-                                <a className='project__btn' href="https://warehouse-full-stack.web.app/" target="_blank">Visit Me</a>
+                                <a className='project__btn' href="https://warehouse-full-stack.web.app/" target="_blank" rel="noreferrer">Visit Me</a>
                             </div>
                         </div>
                     </div>
