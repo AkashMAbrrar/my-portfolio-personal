@@ -6,7 +6,7 @@ import blogC from '../../images/blog-3.jpg';
 
 const Blogs = () => {
     return (
-        <div className='blog component__space'>
+        <div className='blog component__space' id='Blogs'>
             <div className="heading">
                 <h1 className="heading">Latest Blogs And News</h1>
                 <p className="heading p__color">Every day and every moments we are changing the world is changing</p>

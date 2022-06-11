@@ -3,8 +3,15 @@ import '../Home/Home.css';
 import logo from '../../images/logo.png';
 
 const Home = () => {
+    // fixed header
+
+    window.addEventListener("scroll", function () {
+        const header = document.querySelector(".header");
+        header.classList.toggle("active", window.scrollY > 0);
+    });
+
     return (
-        <div className='home'>
+        <div className='home' id='Home'>
             <div className="home-bg">
                 <div className="header d__flex align__items__center pxy__30">
                     <div className="logo">
@@ -16,6 +23,7 @@ const Home = () => {
                             <a href="#About"><li className='nav__items mx__15'>About</li></a>
                             <a href="#Projects"><li className='nav__items mx__15'>Projects</li></a>
                             <a href="#Portfolio"><li className='nav__items mx__15'>Portfolio</li></a>
+                            <a href="#Service"><li className='nav__items mx__15'>Services</li></a>
                             <a href="#Blogs"><li className='nav__items mx__15'>Blogs</li></a>
                             <a href="#Contact"><li className='nav__items mx__15'>Contact</li></a>
                         </ul>

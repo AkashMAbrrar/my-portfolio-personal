@@ -6,7 +6,7 @@ import { FaServer } from "react-icons/fa";
 
 const Service = () => {
     return (
-        <div className='service component__space'>
+        <div className='service component__space' id='Service'>
             <div className="heading">
                 <h1 className="heading">My Services Which I Provide</h1>
                 <p className="heading p__color">I Making All Of My Services By Modern Technologies And Hardwork</p>

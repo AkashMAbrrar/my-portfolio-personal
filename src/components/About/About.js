@@ -1,10 +1,15 @@
 import React from 'react';
 import '../About/About.css';
 import about from '../../images/about.png';
+import { FaArrowUp } from "react-icons/fa";
 
 const About = () => {
+    window.addEventListener("scroll", function () {
+        const upToTop = document.querySelector("a.bottom__to__top");
+        upToTop.classList.toggle("active", window.scrollY > 0);
+    });
     return (
-        <div className='about component__space'>
+        <div className='about component__space' id='About'>
             <div className="container">
                 <div className="row">
                     <div className="col__2">
@@ -21,12 +26,18 @@ const About = () => {
                                 Building user-friendly websites and applications is truly a passion of mine and I am confident that I would be an excellent addition to your organization. In addition to my knowledge base, I actively seek out new technologies and advancements. I have attached three projects in my resume detailing my work, along with links to websites including GitHub codes and applications.
                             </p>
                             <div className="about__button d__flex align__items__center">
-                                <a href="https://drive.google.com/file/d/1s_6uCSClGlAC876K8EMNXdH0-gbl2Rqb/view" target="_blank"><button className="about btn pointer">Download Resume</button></a>
+                                <a href="https://drive.google.com/file/d/1s_6uCSClGlAC876K8EMNXdH0-gbl2Rqb/view" target="_blank" rel="noreferrer"><button className="about btn pointer">Download Resume</button></a>
                                 <a href="#"><button className="about btn pointer">Hire Me</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            {/* up to top btn */}
+            <div className='up__to__top__btn'>
+                <a className='bottom__to__top' href="#">
+                    <FaArrowUp className='white'></FaArrowUp>
+                </a>
             </div>
         </div>
     );
