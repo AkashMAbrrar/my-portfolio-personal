@@ -24,7 +24,7 @@ const Blogs = () => {
                             </div>
                             <div className="Blog__meta absolute">
                                 <h5 className='project__text'>Software Engineering</h5>
-                                <h4 className='project__text'>Impotance of software engineering</h4>
+                                <h4 className='project__text'>Comming Soon!</h4>
                                 <a className='blog project__btn btn' href="" target="_blank" rel="noreferrer">Explore</a>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ const Blogs = () => {
                             </div>
                             <div className="Blog__meta absolute">
                                 <h5 className='project__text'>Software Engineering</h5>
-                                <h4 className='project__text'>Impotance of software engineering</h4>
+                                <h4 className='project__text'>Comming Soon!</h4>
                                 <a className='blog project__btn btn' href="" target="_blank" rel="noreferrer">Explore</a>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ const Blogs = () => {
                             </div>
                             <div className="Blog__meta absolute">
                                 <h5 className='project__text'>Software Engineering</h5>
-                                <h4 className='project__text'>Impotance of software engineering</h4>
+                                <h4 className='project__text'>Comming Soon!</h4>
                                 <a className='blog project__btn btn' href="" target="_blank" rel="noreferrer">Explore</a>
                             </div>
                         </div>

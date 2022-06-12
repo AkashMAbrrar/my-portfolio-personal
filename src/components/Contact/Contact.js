@@ -14,9 +14,9 @@ const Contact = () => {
                             <p className='hire__text white'><strong>+8801758472952</strong>or E-mail <strong>mabrrar9@gmail.com</strong></p>
                         </div>
                         <form action="https://formspree.io/f/xwkyznqr" method="POST" className='input__box'>
-                            <input type="text" className='contact name' placeholder='Your Name' name="name" />
-                            <input type="text" className='contact email' placeholder='Your Email' name="email" />
-                            <input type="text" className='contact phone' name="phone" placeholder='Your Phone No:' id="" />
+                            <input type="text" className='contact name' placeholder='Your Name' name="name" required />
+                            <input type="text" className='contact email' placeholder='Your Email' name="email" required />
+                            <input type="text" className='contact phone' name="phone" placeholder='Your Phone No:' id="" required />
                             <textarea name="message" id="message" placeholder='Write Your Messages Here'></textarea>
                             <input id='btnIn' className='contact pointer' type="submit" value="Submit" />
                         </form>

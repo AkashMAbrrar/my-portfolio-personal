@@ -3,11 +3,15 @@ import '../Projects/Projects.css';
 import projectMed1 from '../../images/project-2.jpg';
 import projectWar2 from '../../images/project-3.jpg';
 import projectInd3 from '../../images/projectInd.jpg';
+import { Link } from 'react-router-dom';
+import Modal from '../Modal/Modal';
+import Modal_2 from '../Modal/Modal_2';
+import Modal_3 from '../Modal/Modal_3';
 
 
 const Projects = () => {
     return (
-        <div className='project component__space' id='Projects'>
+        <div className='project component__space'>
             <div className="heading">
                 <h1 className="heading">My Latest Projects</h1>
                 <p className="heading p__color">I Making All Of My Projects By Modern Technologies And Hardwork</p>
@@ -26,7 +30,8 @@ const Projects = () => {
                             <div className="project__meta absolute">
                                 <h5 className='project__text'>Medical Service</h5>
                                 <h4 className='project__text'>Medication service for all pepole and take appointment from online</h4>
-                                <a className='project__btn' href="https://doctors-portal-208da.web.app/?fbclid=IwAR3s0-sJH3_QXN6fCmfxkQq4xbc8EhA3ylJ8WzSWWswxrI_uQVwAAwxjqoc" target="_blank" rel="noreferrer">Visit Me</a>
+                                {/* <a className='project__btn' href="" target="_blank" rel="noreferrer">Visit Me</a> */}
+                                <Modal></Modal>
                             </div>
                         </div>
                     </div>
@@ -41,7 +46,8 @@ const Projects = () => {
                             <div className="project__meta absolute">
                                 <h5 className='project__text'>Products Contribution</h5>
                                 <h4 className='project__text'>Warehouse Manangements and contribution</h4>
-                                <a className='project__btn' href="https://warehouse-full-stack.web.app/" target="_blank" rel="noreferrer">Visit Me</a>
+                                {/* <a className='project__btn' href="https://warehouse-full-stack.web.app/" target="_blank" rel="noreferrer">Visit Me</a> */}
+                                <Modal_2></Modal_2>
                             </div>
                         </div>
                     </div>
@@ -56,7 +62,8 @@ const Projects = () => {
                             <div className="project__meta absolute">
                                 <h5 className='project__text'>Parts Carnival</h5>
                                 <h4 className='project__text'>There are very uniqe and qualified parts for automobile and all kind of cars.</h4>
-                                <a className='project__btn' href="https://carparts-carnival.web.app/?fbclid=IwAR1TjvZjkI3z3eKHe-N92jgAtPXN9B0OfiKY9UKArLq8Uyq31wG48M9utzI" target="_balnk">Visit Me</a>
+                                {/* <a className='project__btn' href="https://carparts-carnival.web.app/?fbclid=IwAR1TjvZjkI3z3eKHe-N92jgAtPXN9B0OfiKY9UKArLq8Uyq31wG48M9utzI" target="_balnk">Visit Me</a> */}
+                                <Modal_3></Modal_3>
                             </div>
                         </div>
                     </div>
