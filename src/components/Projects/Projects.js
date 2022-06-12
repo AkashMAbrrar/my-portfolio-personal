@@ -11,7 +11,7 @@ import Modal_3 from '../Modal/Modal_3';
 
 const Projects = () => {
     return (
-        <div className='project component__space'>
+        <div className='project component__space' id='Projects'>
             <div className="heading">
                 <h1 className="heading">My Latest Projects</h1>
                 <p className="heading p__color">I Making All Of My Projects By Modern Technologies And Hardwork</p>
