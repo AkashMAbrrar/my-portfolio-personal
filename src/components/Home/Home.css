@@ -127,3 +127,9 @@ li.sideNavbar {
         font-size: 50px !important;
     }
 }
+
+@media only screen and (max-width:425px) {
+    h2.home__text.pz__10 {
+        font-size: 32px;
+    }
+}
